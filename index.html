@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+
+		<!-- displays site properly based on user's device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<script src="https://kit.fontawesome.com/943e091a41.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap"
+			rel="stylesheet"
+		/>
+
+		<title>Frontend Mentor | Base Apparel coming soon page</title>
+	</head>
+	<body class="background-pattern">
+		<main class="container">
+			<section class="upper-left">
+				<img class="logo" src="images/logo.svg" alt="Base Apparel logo" />
+				<img class="mobile-img" src="/images/hero-mobile.jpg" />
+				<header><span>We're</span> coming soon</header>
+				<p class="main-paragraph">
+					Hello fellow shoppers! We're currently building our new fashion store. Add your email
+					below to stay up-to-date with announcements and our launch deals.
+				</p>
+				<form>
+					<div class="group-form">
+						<input class="initial-border" type="email" id="email" placeholder="Email Address" />
+						<button type="submit" class="email-btn">
+							<div class="arrow-line-up-btn"></div>
+							<div class="arrow-line-down-btn"></div>
+						</button>
+						<i class="fas fa-check-circle"></i>
+						<i class="fas fa-exclamation-circle"></i>
+					</div>
+					<small class="err-validation-msg">Please provide a valid email</small>
+				</form>
+			</section>
+			<footer class="bottom-left">
+				<p class="attribution">
+					Challenge by
+					<a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+					Coded by <a href="#">Douglas Tiepolo</a>.
+				</p>
+			</footer>
+		</main>
+		<img class="right desktop-img" src="/images/hero-desktop.jpg" />
+		<script src="js/script.js" type="text/javascript"></script>
+	</body>
+</html>
